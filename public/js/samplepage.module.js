@@ -2,19 +2,21 @@
   "use strict";
 
   angular
-    .module("samplepage", ['ui.router'])
-    .config(router);
+    .module("samplepage", [])
+    .controller("MainController", MainController)
 
-  function router($stateProvider, $urlRouterProvider) {
+    function MainController($http) {
+      var vm = this;
 
-    $urlRouterProvider.otherwise('/');
+      vm.newUser = {};
 
-    $stateProvider
-      .state('main', {
-        url: '/',
-        templateUrl: 'main.html',
+      vm.submitUser = submitUser;
 
-      })
+      function submitUser() {
+        console.log('clicked')
+        $http
+          .post("/users", vm.newUser);
+      }
+    }
 
-  }
 })();
