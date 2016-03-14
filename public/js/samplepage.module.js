@@ -13,7 +13,7 @@
       vm.submitUser = submitUser;
 
       function submitUser() {
-        console.log('clicked')
+        console.log('clicked');
         $http
           .post("/users", vm.newUser);
       }
