@@ -1,0 +1,13 @@
+.submitform {
+  background-color: rgb(108, 203, 203);
+  height: 100%;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin-top: -19px;
+}
+
+
