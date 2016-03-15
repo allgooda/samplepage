@@ -1,3 +1,10 @@
+input {
+  text-align: center;
+  border-radius: 5px !important;
+  opacity: .6;
+  height: 50px !important;
+}
+
 .submitform {
   background-color: rgb(108, 203, 203);
   height: 100%;
@@ -8,6 +15,61 @@
   left: 50%;
   position: absolute;
   margin-top: -19px;
+  margin-left: 4px;
 }
 
+#submitBox {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  height: 295px;
+  width: 290px;
+  margin: 0px auto;
+  margin-top: 150px;
+  box-shadow: 2px 2px 2px #888888;
+}
 
+#footer {
+  background-color: #76777b;
+  height: 280px;
+}
+
+.text {
+  font-family: "proximanova-light",Arial,Helvetica,sans-serif;
+  margin: 0px auto;
+  width: 190px;
+  opacity: .7;
+}
+
+#choose {
+  font-weight: bold;
+  width: 135px;
+  font-color: #76777B;
+}
+
+.input-group {
+  margin: 0px auto;
+  width: 260px;
+  margin-top: 30px;
+}
+
+#submitBtn {
+  width: 260px;
+  height: 50px;
+  background-color: #6BCBC9;
+  font-family: "proximanova-light",Arial,Helvetica,sans-serif;
+  color: white !important;
+  margin-top: 10px;
+  line-height: 35px;
+  letter-spacing: 1.5px;
+}
+
+#back {
+  width: 260px;
+  height: 50px;
+  background-color: #F2F2F2;
+  line-height: 35px;
+  color: #9D9DA0 !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 30px;
+}
