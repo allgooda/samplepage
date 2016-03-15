@@ -28,13 +28,13 @@
       Choose a Username
     </div>
     <div class="text">
-      Must be at least 8 characters
+      Must be at least 8 characters.
     </div>
 
-    <div class="input-group">
-      <input type="text" class="form-control" placeholder="Enter a username" aria-describedby="basic-addon1">
+    <div class="input-group" ng-controller="MainController as vm">
+      <input type="text" class="form-control" placeholder="Enter a username" aria-describedby="basic-addon1" ng-model='vm.newUser.username'>
       <a href="#" class="btn" id="back">BACK TO LOGIN</a>
-      <a href="#" class="btn" id="submitBtn">SET USERNAME</a>
+      <a href="#" class="btn" id="submitBtn" ng-click="vm.submitUser(); vm.newUser = {} ">SET USERNAME</a>
     </div>
 
   </div>
