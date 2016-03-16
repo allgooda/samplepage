@@ -15,7 +15,6 @@
       vm.lineTwo = 'Must be at least 8 characters.';
 
       vm.linewidthone = '135px';
-
       vm.linewidthtwo = '190px';
 
       function checkLengths() {

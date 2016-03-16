@@ -21,6 +21,9 @@ li {
   font-size: 13px;
   padding-left: 48px;
 }
+a {
+    text-decoration: none !important;
+}
 
 .submitform {
   background-color: rgb(108, 203, 203);
