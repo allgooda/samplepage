@@ -152,12 +152,21 @@ li {
 #logoCpy {
   width: 300px;
   height: 100px;
-  background-color: black;
 }
 
 #logoCpy img{
   height: 40px;
   width: 40px;
   margin: 10px 0px 0px 28px;
+}
+
+.copyright {
+  color: white;
+  width: 210px;
+  float: right;
+  margin-top: 15px;
+  font-size: 11px;
+  line-height: 150%;
+  font-family: "proximanova",Arial,Helvetica,sans-serif;
 }
 
