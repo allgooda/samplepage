@@ -16,7 +16,7 @@
 
       vm.linewidthone = '135px';
 
-      vm.linewidthtwo = '184px';
+      vm.linewidthtwo = '190px';
 
       function checkLengths() {
 
