@@ -24,7 +24,7 @@ li {
 
 .submitform {
   background-color: rgb(108, 203, 203);
-  height: 100%;
+  height: 650px;
 }
 
 .navbar-brand {
@@ -45,7 +45,6 @@ li {
   height: 295px;
   width: 290px;
   margin: 0px auto;
-
   margin-top: 145px;
   box-shadow: 2px 2px 2px #888888;
 }
