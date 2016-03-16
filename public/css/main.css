@@ -22,8 +22,6 @@ li {
   padding-left: 48px;
 }
 
-
-
 .submitform {
   background-color: rgb(108, 203, 203);
   height: 100%;
@@ -35,6 +33,10 @@ li {
   position: absolute;
   margin-top: -19px;
   margin-left: 4px;
+}
+
+#brand {
+  width: 125px;
 }
 
 #submitBox {
@@ -119,3 +121,43 @@ li {
   margin-left: 26px;
   margin-top: 20px;
 }
+
+#email {
+  width: 260px;
+  height: 60px;
+
+}
+
+#emailForm {
+  width: 220px;
+  height: 40px !important;
+  margin-top: 10px;
+}
+
+.btn-primary {
+  height: 40px;
+  width: 40px;
+}
+
+#safeSecure {
+  width: 300;
+  height: 40;
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  font-family: 'proximanova-light', Arial, Helvetica, sans-serif;
+  margin-left: 35px;
+}
+
+#logoCpy {
+  width: 300px;
+  height: 100px;
+  background-color: black;
+}
+
+#logoCpy img{
+  height: 40px;
+  width: 40px;
+  margin: 10px 0px 0px 28px;
+}
+
