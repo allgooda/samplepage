@@ -5,6 +5,25 @@ input {
   height: 50px !important;
 }
 
+ul {
+
+  display: table;
+  margin-left: 0;
+  padding-left: 0;
+  padding-top: 60px;
+  list-style: none;
+
+}
+
+li {
+  padding-top: 15px;
+  color: white;
+  font-size: 13px;
+  padding-left: 48px;
+}
+
+
+
 .submitform {
   background-color: rgb(108, 203, 203);
   height: 100%;
@@ -24,25 +43,24 @@ input {
   height: 295px;
   width: 290px;
   margin: 0px auto;
-  margin-top: 150px;
+
+  margin-top: 145px;
   box-shadow: 2px 2px 2px #888888;
 }
 
 #footer {
   background-color: #76777b;
-  height: 280px;
+  height: 500px;
 }
 
 .text {
   font-family: "proximanova-light",Arial,Helvetica,sans-serif;
   margin: 0px auto;
-  width: 190px;
   opacity: .7;
 }
 
 #choose {
   font-weight: bold;
-  width: 135px;
   font-color: #76777B;
 }
 
@@ -72,4 +90,32 @@ input {
   font-weight: bold;
   letter-spacing: 1px;
   margin-top: 30px;
+}
+
+#footerContainer {
+  width: 300px;
+  height: 500px;
+  margin: 0px auto;
+
+}
+
+.links {
+  margin-top: -15px;
+  width: 150px;
+  height: 200px;
+  float: left;
+}
+
+#icons {
+  margin-top: 15px;
+  width: 300px;
+  height: 80px;
+  float: left;
+}
+
+.mediaLink {
+  width: 40px;
+  height: 40px;
+  margin-left: 26px;
+  margin-top: 20px;
 }
